@@ -28,21 +28,35 @@ Our project aims to revolutionize the shopping experience by integrating a produ
 
 This is the main screen of the Amazon Prime website, displaying multiple movies. Users can select different language sections to watch movies and web series in their preferred languages.
 
+https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/10323ac4-b333-4000-9e96-78ef5df4f6d9
+
+
 ### 🛍️ Product Identification and Purchase
 
 This video demonstrates how a customer spots an item and wants to get it easily while enjoying the series. Using the extended X-Ray feature, the items are displayed, and users can be redirected to the product on Amazon for purchase.
+
+https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/7141d627-c44c-422d-85e5-75e8c69b403c
+
 
 ### 🔍 Product Identification Using Lens
 
 This feature can be used when you need a single item from a scene. You can directly enclose that product using your mouse, and it will be shown quickly.
 
+https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/07a20752-d228-4733-9138-94f8e9e93571
+
+
 ### 💖 Wishlist Feature
 
 We also offer a wishlisting feature, allowing users to easily add relevant items to their wishlist within Amazon Prime without interrupting their entertainment to visit Amazon.
 
+https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/384e14c3-6614-4d6b-ba8e-2061cffa3bb4
+
+
 ### ⭐ Wishlist Button
 
 There is also a wishlist button on the main screen, which allows users to view the items they have wishlisted from different movies or web series. Users can visit Amazon to buy these items at their convenience or remove items they no longer want.
+
+https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/c4ddc765-26fe-47aa-8427-4f1ffb4e3b09
 
 
 ## 🛠️ Tech Stacks
