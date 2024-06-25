@@ -2,6 +2,7 @@
 
 Our project aims to revolutionize the shopping experience by integrating a product identification and wishlist feature into Amazon Prime Video, transforming how consumers interact with media and shop online. This innovative solution addresses the challenges faced by consumers who want to seamlessly purchase items seen in movies or web series, enhancing both convenience and satisfaction.
 
+<br>
 
 ## 🌟 Key Objectives
 
@@ -10,6 +11,7 @@ Our project aims to revolutionize the shopping experience by integrating a produ
 - **Seamless Wishlist Integration:** Empowers users to instantly add desired products to a wishlist directly within Amazon Prime Video, ensuring a smooth viewing experience without the need to switch between platforms.
 - **In-Website Wishlist Review and Management:** Offers users the ability to review and modify their wishlist items within Amazon Prime Video, enhancing convenience by allowing management of their wishlist without leaving the website.
 
+<br>
 
 ## ✨ Features
 
@@ -21,6 +23,7 @@ Our project aims to revolutionize the shopping experience by integrating a produ
 - Review wishlist items within Amazon Prime Video.
 - Modify and manage wishlist items without leaving the app.
 
+<br>
 
 ## 📖 Guide
 
@@ -58,7 +61,8 @@ There is also a wishlist button on the main screen, which allows users to view t
 
 https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/c4ddc765-26fe-47aa-8427-4f1ffb4e3b09
 
-<br><br><br><br>
+<br>
+
 ## 🛠️ Tech Stacks
 
 - HTML
@@ -70,6 +74,8 @@ https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/asse
 - Selenium
 - GitHub
 - Canva
+
+<br>
 
 ## 🚀 Future Scope
 
