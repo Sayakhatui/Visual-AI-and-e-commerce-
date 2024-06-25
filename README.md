@@ -6,6 +6,7 @@ Our project aims to revolutionize the shopping experience by integrating a produ
 ## 🌟 Key Objectives
 
 - **Scene-Based Product Identification and Search:** Allows users to effortlessly identify and search for products featured in ongoing scenes, then redirects them to Amazon to view and purchase the exact or similar items.
+- **Product Identification Using Lens:** Provides an intuitive feature for users to enclose a single item from a scene using their mouse, and have it displayed quickly.
 - **Seamless Wishlist Integration:** Empowers users to instantly add desired products to a wishlist directly within Amazon Prime Video, ensuring a smooth viewing experience without the need to switch between platforms.
 - **In-Website Wishlist Review and Management:** Offers users the ability to review and modify their wishlist items within Amazon Prime Video, enhancing convenience by allowing management of their wishlist without leaving the website.
 
@@ -13,6 +14,7 @@ Our project aims to revolutionize the shopping experience by integrating a produ
 ## ✨ Features
 
 - Identify products in ongoing scenes.
+- Product identification using Lens for quick access to a single item.
 - Redirect to Amazon to view and purchase items.
 - Add products to a wishlist within Amazon Prime Video.
 - Maintain a smooth viewing experience without switching platforms.
