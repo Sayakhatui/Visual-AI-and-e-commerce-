@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Video | Watch movies and TV Shows</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark"
+      aria-label="Tenth navbar example"
+      style="margin: 0; padding: 0"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample08"
+          aria-controls="navbarsExample08"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-md-center"
+          id="navbarsExample08"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >prime video</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: white"
+                >Home</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All</a></li>
+                <li><a class="dropdown-item" href="#">Movies</a></li>
+                <li><a class="dropdown-item" href="#">TV shows</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: lightgray"
+                >Store</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All</a></li>
+                <li><a class="dropdown-item" href="#">Rent</a></li>
+                <li><a class="dropdown-item" href="#">Channels</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: lightgray"
+                >Live TV</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: lightgray"
+                >Categories</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: lightgray"
+                >My Stuff</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All</a></li>
+                <li><a class="dropdown-item" href="#">Watchlist</a></li>
+                <li><a class="dropdown-item" href="#">Rentals</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-search" style="color: lightgray"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-user-shield" style="color: lightgray"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                onclick="showWishlist()"
+                style="color: lightgray"
+              >
+                Wishlist
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+        ></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/carousel1.png" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/carousel2.png" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/carousel3.png" alt="Third slide" />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+    <div class="album py-5" style="background-color: #000000">
+      <div class="container">
+        <div class="row mb-2">
+          <h4 style="color: white; font-size: 20px">
+            <span style="color: lightskyblue">Prime</span> TV shows we think
+            you'll like
+          </h4>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div
+              class="card shadow-sm card-hover"
+              style="background-color: #000000"
+              onclick="playVideo('videos/jamnapaar.mp4')"
+            >
+              <img src="images/jamnapaar.png" alt="" />
+              <div class="card-body" style="color: white">
+                <div class="d-flex justify-content-start align-items-center">
+                  <svg
+                    fill="#fff"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    width="48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h48v48H0z" fill="none" />
+                    <path
+                      d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"
+                    />
+                  </svg>
+                  <p style="margin-top: 10px; margin-left: 10px">Play S1 E1</p>
+                </div>
+                <div>
+                  <p>Jamnapaar</p>
+                  <p>
+                    2024 <br>
+                    U/A 16+ <br>
+                    A coming of age journey of Shantanu Bansal (aka Shanky) from Laxmi Nagar, East Delhi,...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card shadow-sm card-hover"
+              style="background-color: #000000"
+              onclick="playVideo('videos/teri baaton.mp4')"
+            >
+              <img src="images/teri baaton.png" alt="" />
+              <div class="card-body" style="color: white">
+                <div class="d-flex justify-content-start align-items-center">
+                  <svg
+                    fill="#fff"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    width="48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h48v48H0z" fill="none" />
+                    <path
+                      d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"
+                    />
+                  </svg>
+                  <p style="margin-top: 10px; margin-left: 10px">Play S1 E1</p>
+                </div>
+                <div>
+                  <p>Teri Baaton Mein Aisa Uljha Jiya</p>
+                  <p>
+                    2024 <br>
+                    U/A 13+ <br>
+                    Aryan is not able to find a perfect life partner. He meets a perfect girl, Sifra, during an...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card shadow-sm card-hover"
+              style="background-color: #000000"
+              onclick="playVideo('videos/dil dosti.mp4')"
+            >
+              <img src="images/dil dosti.png" alt="" />
+              <div class="card-body" style="color: white">
+                <div class="d-flex justify-content-start align-items-center">
+                  <svg
+                    fill="#fff"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    width="48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h48v48H0z" fill="none" />
+                    <path
+                      d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"
+                    />
+                  </svg>
+                  <p style="margin-top: 10px; margin-left: 10px">Play S1 E1</p>
+                </div>
+                <div>
+                  <p>Dil Dosti Dilemma</p>
+                  <p>
+                    2024 <br>
+                    U/A 13+ <br>
+                    Season 1・Asmara's summer takes a turn when she's sent to her grandparents'...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2 mt-3">
+          <h4 style="color: white; font-size: 20px">
+            <span style="color: lightskyblue">Prime</span> Watch in Your
+            Language
+          </h4>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm" style="background-color: #000000">
+              <img src="images/hindi.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm" style="background-color: #000000">
+              <img src="images/english.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm" style="background-color: #000000">
+              <img src="images/telugu.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="wishlistModal"
+      tabindex="-1"
+      aria-labelledby="wishlistModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="wishlistModalLabel">Wishlist</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="wishlistItems">
+            <!-- Wishlist items will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

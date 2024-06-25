@@ -1,0 +1,24 @@
+PROJECT OVERVIEW:
+Our project aims to revolutionize the shopping experience by integrating a product identification and wishlist feature into Amazon Prime Video, transforming how consumers interact with media and shop online. This innovative solution addresses the challenges faced by consumers who want to seamlessly purchase items seen in movies or web series, enhancing both convenience and satisfaction.
+
+
+Key Objectives
+Scene-Based Product Identification and Search: Allows users to effortlessly identify and search for products featured in ongoing scenes, then redirects them to Amazon to view and purchase the exact or similar items.
+
+Seamless Wishlist Integration: Empowers users to instantly add desired products to a wishlist directly within Amazon Prime Video, ensuring a smooth viewing experience without the need to switch between platforms.
+
+
+In-Website Wishlist Review and Management: Offers users the ability to review and modify their wishlist items within Amazon Prime Video, enhancing convenience by allowing management of their wishlist without leaving the website.
+
+
+Features:
+Identify products in ongoing scenes.
+Redirect to Amazon to view and purchase items.
+Add products to a wishlist within Amazon Prime Video.
+Maintain a smooth viewing experience without switching platforms.
+Review wishlist items within Amazon Prime Video.
+Modify and manage wishlist items without leaving the app.
+
+
+Guide
+

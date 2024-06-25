@@ -1,0 +1,26 @@
+body {
+  background-color: #000000 !important;
+}
+.navbar-dark.bg-dark {
+  background-color: #000000 !important;
+}
+.nav-link {
+  font-weight: bold;
+}
+.navbar-nav .nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar-icons .nav-link {
+  padding: 0.5rem 1rem;
+}
+.play-info {
+  display: flex;
+  align-items: center;
+}
+.play-info svg {
+  margin-right: 8px;
+}
+.card-hover:hover {
+  transform: scale(1.1);
+}

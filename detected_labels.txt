@@ -1,0 +1,17 @@
+Name: Wristwatch, Confidence: 77.57, Relative Area: 0.00, File: imgs\Wristwatch_77.57_821_682.png
+Name: Tie, Confidence: 42.29, Relative Area: 0.01, File: imgs\Tie_42.29_1495_242.png
+Name: Shoe, Confidence: 44.00, Relative Area: 0.00, File: imgs\Shoe_44.00_629_894.png
+Name: Sandal, Confidence: 43.55, Relative Area: 0.00, File: imgs\Sandal_43.55_321_975.png
+Name: Lamp, Confidence: 44.25, Relative Area: 0.00, File: imgs\Lamp_44.25_956_0.png
+Name: Lamp, Confidence: 44.25, Relative Area: 0.00, File: imgs\Lamp_44.25_1291_0.png
+Name: High Heel, Confidence: 41.76, Relative Area: 0.01, File: imgs\High Heel_41.76_233_978.png
+Name: High Heel, Confidence: 41.76, Relative Area: 0.00, File: imgs\High Heel_41.76_1163_797.png
+Name: Dining Table, Confidence: 49.66, Relative Area: 0.13, File: imgs\Dining Table_49.66_417_718.png
+Name: Coat, Confidence: 83.77, Relative Area: 0.05, File: imgs\Coat_83.77_1447_199.png
+Name: Chair, Confidence: 43.67, Relative Area: 0.07, File: imgs\Chair_43.67_1012_535.png
+Name: Bracelet, Confidence: 36.79, Relative Area: 0.00, File: imgs\Bracelet_36.79_993_355.png
+Name: Adult, Confidence: 98.68, Relative Area: 0.18, File: imgs\Adult_98.68_2_341.png
+Name: Adult, Confidence: 98.68, Relative Area: 0.15, File: imgs\Adult_98.68_1379_75.png
+Name: Adult, Confidence: 98.68, Relative Area: 0.13, File: imgs\Adult_98.68_249_83.png
+Name: Adult, Confidence: 98.68, Relative Area: 0.09, File: imgs\Adult_98.68_607_366.png
+Name: Adult, Confidence: 98.68, Relative Area: 0.06, File: imgs\Adult_98.68_1063_341.png
