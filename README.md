@@ -59,6 +59,14 @@ There is also a wishlist button on the main screen, which allows users to view t
 https://github.com/ABHIJEET-KUMAR-XdYZg/Visual-AI-and-Ecommerce-Prime-Video/assets/133910196/c4ddc765-26fe-47aa-8427-4f1ffb4e3b09
 
 
+
+
+
+
+
+
+
+
 ## 🛠️ Tech Stacks
 
 - HTML
