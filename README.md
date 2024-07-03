@@ -1,6 +1,7 @@
 # 🎥🛒 Project Overview
 
 Our project aims to revolutionize the shopping experience by integrating a product identification and wishlist feature into Amazon Prime Video, transforming how consumers interact with media and shop online. This innovative solution addresses the challenges faced by consumers who want to seamlessly purchase items seen in movies or web series, enhancing both convenience and satisfaction.
+With these project we have cleared the idea submission round and successfully cleared the prototype round presentation at Amazon Hackon Season 4.
 
 <br>
 
